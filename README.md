@@ -1,4 +1,4 @@
-## Horia Mercan - OpenBook Reader - Systems Testing
+## Horia Mercan - OpenBook - Systems Testing
 
 This project presents the electronic design (schematic/pcb) and the visual design of a complete ebook. 
 

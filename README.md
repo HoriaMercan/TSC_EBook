@@ -153,3 +153,33 @@ We will link interfaces of each module with main controller's pins:
 | SI1308EDL-T1-GE3 | MOSFET Transistor | https://www.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay/view-part/ |
 | TP | Test Pad | none |
 | USBLC6-2SC6Y | TVS Diode | https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=dk&t=USBLC6-2SC6Y&con_ref=None |
+
+# ESP32 Pins Usage
+
+**ESP32-C6 Pins and Functions**
+
+| Pin | Signal | Describtion |
+| :--- | :--- | :--- |
+| 16 | RTC\_RST | RTC Reset |
+| 17 | I2C\_PW | I2C Power Supply |
+| 18 | EPD\_3V3\_C | 3.3V to EPD |
+| 19 | SDA | I2C Data Line |
+| 20 | SCL | I2C Clock Line |
+| 21 | EPD\_RST | EPD (E-paper display) Reset |
+| 23 | IO/CHANGE | State Change Signal |
+| 24 | RX | UART Receive Line |
+| 25 | TX | UART Transmit Line |
+| 26 | EPD\_BUSY | EPD  Status |
+| 27 | MISO | SPI Controller In Peripheral Out Line |
+| 3 | RESET | Reset Circuit |
+| 4 | SS\_SD | SD Card Chip Select |
+| 5 | EPD\_DC | EPD (E-paper display) Data/Command Pin |
+| 6 | SCK | SPI Clock Line |
+| 7 | MOSI | SPI Controller Out Peripheral In Line |
+| 8 | INT\_RTC | RTC Interrupt Signal |
+| 9 | 32KHZ | 32 kHz Oscillator |
+| 11 | IO10 | GPIO |
+| 12 | IO11 | GPIO |
+| 13 | IO12 | GPIO |
+| 14 | IO13 | GPIO |
+| 15 | IO/BOOT | Boot/Flash Button |
